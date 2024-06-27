@@ -1,0 +1,42 @@
+import 'package:cooking/pageLayout.dart';
+import 'package:flutter/material.dart';
+
+class PagesSection extends StatelessWidget {
+  const PagesSection({
+    super.key,
+    required this.dishname,
+    required this.description,
+    required this.spice,
+    required this.preptime,
+    required this.cooktime,
+    required this.ingredients,
+    required this.instruction,
+  });
+
+  final dynamic dishname;
+  final dynamic description;
+  final dynamic spice;
+  final dynamic preptime;
+  final dynamic cooktime;
+  final dynamic ingredients;
+  final dynamic instruction;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(dishname)),
+      // body: const SingleChildScrollView(
+      //   child: PageLayout(),
+      // ),
+      body: const PageLayout(
+        dishname: dishname,
+        description: description,
+        spice: spice,
+        preptime: preptime,
+        cooktime: cooktime,
+        ingredients: ingredients,
+        instruction: instruction,
+      ),
+    );
+  }
+}
