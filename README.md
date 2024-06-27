@@ -1,16 +1,12 @@
-# cooking
+# cooking App [let him cook !!]
 
-A new Flutter project.
+This a cooking base project, the app contain the necessary instructions and ingredient to make a super 
+delecious meals, hope you enjoy it.
 
-## Getting Started
+There is some more to do. But this is the basic simple need for now.
 
-This project is a starting point for a Flutter application.
+Next update will include more and more feature.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
